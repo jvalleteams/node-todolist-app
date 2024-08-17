@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+#todo-form {
+  margin-bottom: 20px;
+}
+
+#task-input {
+  padding: 10px;
+  margin-right: 5px;
+  width: 300px;
+}
+
+#todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+#todo-list li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Remove gap between items */
+  background-color: #f9f9f9;
+}
